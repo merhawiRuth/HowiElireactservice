@@ -16,8 +16,11 @@ app.get('/data', (req, res, next) => {
 
 app.post('/data', (req, res)  => {
   const newData = req.body;
+  // const myArray = {...newData}
 
-  fs.writeFile('file.txt', JSON.stringify(newData), (err) => {
+  
+
+  fs.writeFile('file.txt', JSON.stringify(myArray), (err) => {
     if (err) throw err;
     console.log('sent to text!');
   });

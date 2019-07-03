@@ -14,7 +14,7 @@ class App extends Component {
     const object = {
       method: "POST",
       url: 'http://localhost:3005/data',
-      data:{name: 'im a barnowl', value:"hide in a tree"}
+      data:{name: 'im a barkkk9iinkkowl', value:"hide in a tree"}
     }
 
     consume.fetch(object).then( res => {
